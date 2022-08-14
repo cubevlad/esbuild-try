@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"outDir": "./build",
+		"target": "es6",
+		"jsx": "react-jsx",
+		"noImplicitAny": true,
+		"allowJs": true,
+		"strict": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"isolatedModules": true
+	}
+}
