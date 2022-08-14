@@ -1,6 +1,6 @@
-const EsBuildConfig = require('esbuild');
-const mainConfig = require('../esbuild-config');
-const PORT = process.env.PORT || 3000;
+import EsBuildConfig from 'esbuild';
+import mainConfig from '../esbuild-config';
+const PORT = Number(process.env.PORT || 3000);
 
 EsBuildConfig.serve(
 	{
