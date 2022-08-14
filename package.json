@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "cross-env NODE_ENV=production ts-node ./config/esbuild-prod.ts",
+		"build": "cross-env NODE_ENV=production ts-node ./config/build//esbuild-prod.ts",
 		"dev": "cross-env NODE_ENV=development ts-node ./config/build/esbuild-dev.ts"
 	},
 	"keywords": [],
