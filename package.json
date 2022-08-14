@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "cross-env NODE_ENV=development node ./config/build/esbuild-config.js",
-		"build": "cross-env NODE_ENV=production node ./config/build/esbuild-config.js"
+		"build": "cross-env NODE_ENV=production node ./config/esbuild-prod.js",
+		"dev": "cross-env NODE_ENV=development node ./config/build/esbuild-dev.js"
 	},
 	"keywords": [],
 	"author": "",

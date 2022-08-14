@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const App = () => {
 	const [state, setState] = useState(0);
+	console.log('rerendered');
 
 	const handleClick = () => setState((prevState) => prevState + 1);
 
